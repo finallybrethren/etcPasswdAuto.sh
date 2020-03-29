@@ -1,4 +1,5 @@
 #!/bin/bash
+# add root user to /etc/passwd with write permission
 # useage: ./etcpassauto.sh <name> <password>
 
 PATH_SHELL=':0:0:root:/root:/bin/bash'
