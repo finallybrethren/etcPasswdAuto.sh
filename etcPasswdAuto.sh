@@ -9,6 +9,6 @@ FULL="$NAME$COLON$LINE$PATH_SHELL"
 # example passwd entry
 # nick:$1$nick$wpxLQpjimyPiRinw9Hj7W0:0:0:root:/root:/bin/bash
 echo $FULL >> /etc/passwd
-useradd -m ${1} 
+useradd ${1} 
 echo "Login to ${1}"
 su ${1}
